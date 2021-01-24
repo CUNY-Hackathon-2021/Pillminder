@@ -33,7 +33,12 @@ We used JavaScript, React, and Ant Design for the frontend, and Firebase and Nod
 
 ## Contributors
 
-- Lawrence Lin
-- Laxit Shahi
-- Alain Ballen
-- Xuejin Gao
+- [Lawrence Lin]
+- [Laxit Shahi]
+- [Alain Ballen]
+- [Xuejin Gao]
+
+[Lawrence Lin]: https://www.linkedin.com/in/lawrencelin101/
+[Laxit Shahi]: https://www.linkedin.com/in/laxitshahi/
+[Alain Ballen]: https://www.linkedin.com/in/alain-ballen/
+[Xuejin Gao]: https://www.linkedin.com/in/xuejingao
