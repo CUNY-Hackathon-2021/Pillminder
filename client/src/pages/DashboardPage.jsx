@@ -64,9 +64,12 @@ function DashboardPage() {
 
   let data = [];
   if (!loading) {
-    value.forEach((doc) => {
-      data.push(Object.assign({ key: doc.id }, doc.data()));
-    });
+    if (value) {
+      value.forEach((doc) => {
+        data.push(Object.assign({ key: doc.id }, doc.data()));
+      });
+    }
+
     return (
       <div>
         <Row>
