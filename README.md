@@ -17,13 +17,11 @@ We used JavaScript, React, and Ant Design for the frontend, and Firebase and Nod
 
 An example of an ideal picture of a capsule bottle to use:
 <div align="center">
-    
     <img src="imgs/pills.jpg" alt="demo-example" width="400">
 </div>
 
 Our app would extract text from the capsule and send you a text to Pillmind you :)
 <div align="center">
-    
     <img src="imgs/text_demo.jpg" alt="generated" width="400">
 </div>
 
