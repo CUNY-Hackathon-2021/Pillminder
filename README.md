@@ -1,7 +1,7 @@
 
 # Pillminder
 
-### Presentation $ Demo
+### Presentation & Demo
 - Link to [Video Presentation]
 
 [Video Presentation]: https://www.youtube.com/watch?v=Uqb9mhVVuMo&feature=youtu.be&ab_channel=LaxitShahi
@@ -15,12 +15,18 @@ When a user logs into their Pillminder account, they can upload an image or take
 ### How we built it
 We used JavaScript, React, and Ant Design for the frontend, and Firebase and Node.js for the backend. When a user signs up, their credentials are stored into Firebase Authentication and Firebase Cloud Firestore. Adding a new reminder stores the image into Firebase Cloud Storage, with the URL, the title, and the notification setting being saved into Firestore. We utilized the Google Cloud Vision API to extract text from images, with our own functions to process the text into readable messages, and the Twilio API to send the message to the user's phone number.
 
-An example of an ideal picture of a capsule bottle to use:
+<p text-align="center">
+    An example of an ideal picture of a capsule bottle to use:
+</p>
+
 <div align="center">
     <img src="imgs/pills.jpg" alt="demo-example" width="400">
 </div>
 
-Our app would extract text from the capsule and send you a text to Pillmind you :)
+<p text-align="center">
+    Our app would extract text from the capsule and send you a text to Pillmind you :)
+</p>
+
 <div align="center">
     <img src="imgs/text_demo.jpg" alt="generated" width="400">
 </div>
